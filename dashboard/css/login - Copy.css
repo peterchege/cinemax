@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+	color:#fff;
+}
+
+.backgroud{
+	width: 100%;
+	background-image: url(../img/waterfall.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.head-color{
+	width: 100%;
+	height: 10vh;
+	background-color: #F54A4A;
+	box-shadow: 1px 2px 0.5em #000;
+}
+
+.head-color ul{
+	float: right;
+	margin-top: -50px;
+	list-style: none;
+	margin-right: 30px;
+
+}
+
+.head-color ul li{
+	float: left;
+	margin: 0 5px;
+}
+
+.head-color .fas{
+	font-size: 23px;
+	cursor: pointer;
+}
+
+.head-color .fas:hover{
+	color: #000;
+}
+
+.fa-bell{
+	color: #F9B200;
+}
+
+form{
+	padding: 0 20px;
+}
+
+input{
+	width: 200px;
+	height: 30px;
+	padding: 1px 5px;
+	font-size: 14px;
+	border: none;
+	box-shadow: 1px 2px 01em #000;
+
+}
+
+form button{
+	width: 50px;
+	height: 30px;
+	background-color: #E00003;
+	color: white;
+	border: none;
+	margin-top: -1.3px;
+	box-shadow: 1px 2px 01em #000;
+}
+
+.btn{
+	float: right;	
+}
+
+.head-color .fa-search{
+	cursor: pointer;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+h1{
+	padding: 10px 0px 10px 20px;
+	font-size: 34px;
+}
+
+section{
+	width: 100%;
+}
+
+aside{
+	width: 18%;
+	height: 90vh;
+	opacity: 0.9;
+	background-color: #F54A4A;
+	box-shadow: 1px 2px 0.5em #FF0004;
+}
+
+aside ul{
+	display: block;
+	font-size: 18px;
+	padding-top: 30px;
+}
+
+aside ul li{
+	padding: 15px 10px 10px 40px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+aside ul li:hover{
+	color: #000;
+	background-color: #FF0808;
+	box-shadow: 1px 2px 0.1em #000;
+}
+
+ul li .fas{
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.board{
+	width: 82%;
+	height: 90vh;
+	background-color: white;
+	position: absolute;
+	top: 10vh;
+	right: 0;
+	bottom: 0;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.box{
+	width: 100%;
+	height: 160px;
+	background-color: #000;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: left;
+	padding: 20px 0 0 10px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.detail{
+	margin: 10px 0 0 0;
+	padding-top: 10px;
+	border-top: 1px solid;
+	border-top-color: #000;
+	cursor: pointer;
+}
+
+.row .fas{
+	font-size: 24px;
+	
+}
+
+.blue{
+	background-color: #0511E4;
+}
+
+.blue:hover{
+	background-color: #232EFA;
+	box-shadow: 1px 1px 1em #232EFA;
+}
+
+.yellow{
+	background-color: #FF9E00;
+}
+
+.yellow:hover{
+	background-color: #FFAA21;
+	box-shadow: 1px 1px 1em #FFAA21;
+	color: #000;
+}
+
+.green{
+	background-color: #039F06;
+}
+
+.green:hover{
+	background-color: #03CF07;
+	box-shadow: 1px 1px 1em #03CF07;
+	color: #000;
+}
+
+.red{
+	background-color: #BD0003;
+}
+
+.red:hover{
+	background-color: #FF0307;
+	box-shadow: 1px 1px 1em #FF0307;
+	color: #000;
+}
+
+
+.card{
+	margin: 20px auto;
+}
+
+.card-header{
+	color: #000;
+}
+
+.update{
+	color: grey;
+}
+
+.fa-angle-right{
+	float: right;
+	font-size: 24px;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+table{
+	color: black;
+	box-shadow: 1px 0.5px 0.2em #000;
+	cursor: pointer;
+}
+
+
+#area-chart,
+#line-chart,
+#bar-chart,
+#stacked,
+#pie-chart{
+  min-height: 200px;
+}
+
+.bashir{
+	color: dodgerblue;
+}

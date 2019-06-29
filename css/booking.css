@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	font-family: lato;
+}
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+form{
+	margin: 50px 0 0 100px;	
+	position: absolute;
+	left: 30%;
+}
+
+input{
+	width: 350px;
+	height: 40px;
+	padding: 0px 20px;
+	margin: 15px 0;
+
+}
+
+label{
+	font-size: 16px;
+}
+
+#mim{
+	position: absolute;
+	top: 55%;
+	right: 0%;
+}
+
+
+
+#btn{
+	text-align: center;
+	padding: 0;
+	margin: 30px 0px 0 25px;
+	width: 270px;
+	height: 50px;
+	background-color: #0C0C6600;
+	border: solid 1px black; 
+	border-radius: 50px;
+	color: black;
+	font-size: 20px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#btn:hover{
+	background-color: #1B19B7;
+	border: solid #1B19B7;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
